@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: #999;
+    padding: 1rem;
+}
+.container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box{
+    background-color: #999;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid rgb(113, 110, 110);
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+input , button{
+    padding: 6px;
+    font-size: 15px;
+}
+button{
+    padding: 0 10px;
+}
